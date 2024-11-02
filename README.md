@@ -287,4 +287,4 @@ Looking for something else? Try another Swift wrapper (or [FMDB][]):
 
 [SQLiteMigrationManager.swift]: https://github.com/garriguv/SQLiteMigrationManager.swift
 [FMDB]: https://github.com/ccgus/fmdb
-[FMDBMigrationManager]: https://github.com/layerhq/FMDBMigrationManager
+
