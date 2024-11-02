@@ -1,6 +1,6 @@
 # SQLite.swift
 
-![Build Status][GitHubActionBadge] [![CocoaPods Version][CocoaPodsVersionBadge]][CocoaPodsVersionLink] [![Swift5 compatible][Swift5Badge]][Swift5Link] [![Platform][PlatformBadge]][PlatformLink] [![Carthage compatible][CartagheBadge]][CarthageLink] [![Join the chat at https://gitter.im/stephencelis/SQLite.swift][GitterBadge]][GitterLink]
+![Build Status][GitHubActionBadge] [![CocoaPods Version][CocoaPodsVersionBadge]][CocoaPodsVersionLink] [![Swift5 compatible][Swift5Badge]][Swift5Link] [![Platform][PlatformBadge]][PlatformLink] [![Carthage compatible][CartagheBadge]][CarthageLink] [![Join the chat at https://gitter.im/ray05191/SQLite.swift][GitterBadge]][GitterLink]
 
 A type-safe, [Swift][]-language layer over [SQLite3][].
 
@@ -23,7 +23,7 @@ syntax _and_ intent.
  - Works on [Linux](Documentation/Linux.md) (with some limitations)
  - Active support at
    [StackOverflow](https://stackoverflow.com/questions/tagged/sqlite.swift),
-   and [Gitter Chat Room](https://gitter.im/stephencelis/SQLite.swift)
+   and [Gitter Chat Room](https://gitter.im/ray05191/SQLite.swift)
    (_experimental_)
 
 [SQLCipher]: https://www.zetetic.net/sqlcipher/
@@ -128,7 +128,7 @@ Swift code.
 
   ```swift
   dependencies: [
-      .package(url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.15.3")
+      .package(url: "https://github.com/ray05191/SQLite.swift.git", from: "0.15.3")
   ]
   ```
 
@@ -138,7 +138,7 @@ Swift code.
   $ swift build
   ```
 
-See the [Tests/SPM](https://github.com/stephencelis/SQLite.swift/tree/master/Tests/SPM) folder for a small demo project which uses SPM.
+See the [Tests/SPM](https://github.com/ray05191/SQLite.swift/tree/master/Tests/SPM) folder for a small demo project which uses SPM.
 
 [Swift Package Manager]: https://swift.org/package-manager
 
@@ -152,7 +152,7 @@ install SQLite.swift with Carthage:
  2. Update your Cartfile to include the following:
 
     ```ruby
-    github "stephencelis/SQLite.swift" ~> 0.15.3
+    github "ray05191/SQLite.swift" ~> 0.15.3
     ```
 
  3. Run `carthage update` and
@@ -221,7 +221,7 @@ device:
 
 [Xcode]: https://developer.apple.com/xcode/downloads/
 [Submodule]: https://git-scm.com/book/en/Git-Tools-Submodules
-[download]: https://github.com/stephencelis/SQLite.swift/archive/master.zip
+[download]: https://github.com/ray05191/SQLite.swift/archive/master.zip
 
 
 ## Communication
@@ -238,14 +238,10 @@ device:
 [See the planning document]: /Documentation/Planning.md
 [Read the contributing guidelines]: ./CONTRIBUTING.md#contributing
 [Ask on Stack Overflow]: https://stackoverflow.com/questions/tagged/sqlite.swift
-[Open an issue]: https://github.com/stephencelis/SQLite.swift/issues/new
-[Submit a pull request]: https://github.com/stephencelis/SQLite.swift/fork
+[Open an issue]: https://github.com/ray05191/SQLite.swift/issues/new
+[Submit a pull request]: https://github.com/ray05191/SQLite.swift/fork
 
 
-## Original author
-
- - [Stephen Celis](mailto:stephen@stephencelis.com)
-   ([@stephencelis](https://twitter.com/stephencelis))
 
 
 ## License
@@ -270,9 +266,9 @@ Looking for something else? Try another Swift wrapper (or [FMDB][]):
 
 [Swift]: https://swift.org/
 [SQLite3]: https://www.sqlite.org
-[SQLite.swift]: https://github.com/stephencelis/SQLite.swift
+[SQLite.swift]: https://github.com/ray05191/SQLite.swift
 
-[GitHubActionBadge]: https://img.shields.io/github/actions/workflow/status/stephencelis/SQLite.swift/build.yml?branch=master
+[GitHubActionBadge]: https://img.shields.io/github/actions/workflow/status/ray05191/SQLite.swift/build.yml?branch=master
 
 [CocoaPodsVersionBadge]: https://img.shields.io/cocoapods/v/SQLite.swift.svg?style=flat
 [CocoaPodsVersionLink]: https://cocoapods.org/pods/SQLite.swift
@@ -283,8 +279,8 @@ Looking for something else? Try another Swift wrapper (or [FMDB][]):
 [CartagheBadge]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat
 [CarthageLink]: https://github.com/Carthage/Carthage
 
-[GitterBadge]: https://badges.gitter.im/stephencelis/SQLite.swift.svg
-[GitterLink]: https://gitter.im/stephencelis/SQLite.swift
+[GitterBadge]: https://badges.gitter.im/ray05191/SQLite.swift.svg
+[GitterLink]: https://gitter.im/ray05191/SQLite.swift
 
 [Swift5Badge]: https://img.shields.io/badge/swift-5-orange.svg?style=flat
 [Swift5Link]: https://developer.apple.com/swift/
